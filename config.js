@@ -1,8 +1,3 @@
-/**
-   * Create By THE JO BOT
-   * Base by Dika Ardnt
-*/
-
 const fs = require('fs')
 const chalk = require('chalk')
 
@@ -13,7 +8,7 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Your Key',
+	'https://zenzapis.xyz': '6eedfe3cd6f1',
 }
 
 
@@ -22,9 +17,9 @@ global.autorecording = false //status auto merekam ( auto record )
 global.autoketik = false //status auto mengetik (auto typing)
 global.available = false //status online (online)
 // Other
-global.owner = ['60177426853','60177426853','60177426853']
-global.premium = ['60177426853']
-global.packname = 'The Jo Bot'
+global.owner = ['916282137207','916282137207','916282137207']
+global.premium = ['916282137207']
+global.packname = 'Ashwin'
 global.author = 'WhatsApp Bot'
 global.wlcm = []
 global.sessionName = 'session'
@@ -43,7 +38,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 100
+    free: "Infinity"
 }
 global.thumb = fs.readFileSync('./lib/jo.jpg')
 global.visoka = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
